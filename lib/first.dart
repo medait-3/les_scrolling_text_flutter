@@ -36,18 +36,20 @@ class _WelcomePageState extends State<WelcomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       body: Center(
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 22),
+                padding: const EdgeInsets.symmetric(horizontal: 122),
                 child: TextScroll(
-                  '  ${widget.name} a',
-                  intervalSpaces: 1,
+                  'z',
+                  intervalSpaces: 11,
                   velocity: Velocity(pixelsPerSecond: Offset(70, 0)),
-                  style: TextStyle(color: Colors.black, fontSize: 222),
+                  style: TextStyle(
+                      color: Colors.red, fontSize: 222, fontFamily: 'a'),
                 ),
               ),
               // Text('Name: ${widget.name}'),
