@@ -11,6 +11,7 @@ class WelcomePage extends StatelessWidget {
       body: Center(
         child: Center(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text('Name: $name'),
               Text('Email: $email'),
