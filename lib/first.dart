@@ -42,16 +42,16 @@ class _WelcomePageState extends State<WelcomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Padding(
-                padding: const EdgeInsets.all(82.0),
+                padding: const EdgeInsets.symmetric(horizontal: 22),
                 child: TextScroll(
-                  '  ${widget.name}  ******************',
-                  intervalSpaces: 10,
-                  velocity: Velocity(pixelsPerSecond: Offset(50, 0)),
-                  style: TextStyle(color: Colors.black, fontSize: 22),
+                  '  ${widget.name} a',
+                  intervalSpaces: 1,
+                  velocity: Velocity(pixelsPerSecond: Offset(70, 0)),
+                  style: TextStyle(color: Colors.black, fontSize: 222),
                 ),
               ),
-              Text('Name: ${widget.name}'),
-              Text('Email: ${widget.email}'),
+              // Text('Name: ${widget.name}'),
+              // Text('Email: ${widget.email}'),
             ],
           ),
         ),
